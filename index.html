@@ -14,49 +14,53 @@
     <link rel="icon" type="image/x-icon" href="favicon.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Daniel Castaño Rodríguez</title>
   </head>
   <body>
     <script src="js/header.js"></script>
 
-    <main>
-      <img src="img/daniel.jpeg" alt="Daniel Castaño Rodríguez" width="300" />
-      <h1>Hello, I'm Daniel Castaño Rodríguez</h1>
-      <p>Web and Data Engineer</p>
+    <nav aria-label="Breadcrumb">
+      <ul>
+        <li data-i18n="nav.home">Home</li>
+      </ul>
+    </nav>
+
+    <main id="main-content">
+      <img src="img/daniel.jpeg" alt="Portrait of Daniel Castaño Rodríguez" width="300" />
+      <h1 data-i18n="home.greeting">Hello, I'm Daniel Castaño Rodríguez</h1>
+      <p data-i18n="home.role">Web and Data Engineer</p>
 
       <section id="quote">
-        <h2>Favorite Quote</h2>
+        <h2 data-i18n="home.quote_title">Favorite Quote</h2>
 
-        <blockquote>
+        <blockquote data-i18n="home.quote_text">
           If you ever think of a good quote but you want it to sound smarter,
           just say Albert Einstein said it. - Albert Einstein
         </blockquote>
       </section>
 
       <section id="interests">
-        <h2>Interests</h2>
+        <h2 data-i18n="home.interests_title">Interests</h2>
         <ul>
-          <li>Web Development</li>
-          <li>Model-Driven Engineering</li>
-          <li>Data Science</li>
-          <li>Machine Learning</li>
-          <li>Internet of Things</li>
+          <li data-i18n="home.interests_list.web">Web Development</li>
+          <li data-i18n="home.interests_list.mde">Model-Driven Engineering</li>
+          <li data-i18n="home.interests_list.ds">Data Science</li>
+          <li data-i18n="home.interests_list.ml">Machine Learning</li>
+          <li data-i18n="home.interests_list.iot">Internet of Things</li>
           <li>Quantum Computing</li>
         </ul>
       </section>
 
       <section id="hobbies">
-        <h2>Hobbies</h2>
+        <h2 data-i18n="home.hobbies_title">Hobbies</h2>
         <ul>
-          <li>Playing Videogames</li>
-          <li>Listening to Music</li>
-          <li>Walking</li>
+          <li data-i18n="home.hobbies_list.swabs">Collecting used cotton swabs</li>
+          <li data-i18n="home.hobbies_list.rice">Counting grains of rice</li>
+          <li data-i18n="home.hobbies_list.paint">Watching paint dry</li>
+          <li data-i18n="home.hobbies_list.socks">Organizing socks by color shade</li>
+          <li data-i18n="home.hobbies_list.cereal">Memorizing cereal box ingredients</li>
         </ul>
-      </section>
-
-      <section id="videos">
-        <h2>Videos</h2>
-        <video src="../presentacion.mp4"></video>
       </section>
     </main>
 

@@ -1,0 +1,7 @@
+{
+    "nav.home": "index.html",
+    "nav.about": "about.html",
+    "nav.experience": "experience.html",
+    "nav.contact": "contact.html",
+    "footer.sitemap": "sitemap.html"
+}

@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "search_placeholder": "Buscar...",
+    "search_button": "Buscar",
+    "skip_link": "Saltar al contenido principal"
+  },
+  "footer": {
+    "sitemap": "Mapa del sitio",
+    "last_updated": "Última actualización: 12 de diciembre de 2025"
+  },
+  "home": {
+    "greeting": "Hola, soy Daniel Castaño Rodríguez",
+    "role": "Ingeniero Web y de Datos",
+    "quote_title": "Cita Favorita",
+    "quote_text": "Si alguna vez piensas en una buena cita pero quieres que suene más inteligente, solo di que la dijo Albert Einstein. - Albert Einstein",
+    "interests_title": "Intereses",
+    "interests_list": {
+        "web": "Desarrollo Web",
+        "mde": "Ingeniería Dirigida por Modelos",
+        "ds": "Ciencia de Datos",
+        "ml": "Aprendizaje Automático",
+        "iot": "Internet de las Cosas"
+    },
+    "hobbies_title": "Aficiones",
+    "hobbies_list": {
+        "swabs": "Coleccionar bastoncillos de algodón usados",
+        "rice": "Contar granos de arroz",
+        "paint": "Ver secar la pintura",
+        "socks": "Organizar calcetines por tono de color",
+        "cereal": "Memorizar ingredientes de cajas de cereales"
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Me llamo Daniel Castaño Rodríguez y soy graduado en Ingeniería de Ciencia de Datos por la Universidad de Oviedo. Actualmente estoy cursando un Máster en Desarrollo Web mientras trabajo con una beca en el IUTA."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "education": "Educación",
+    "work": "Experiencia Laboral",
+    "references": "Referencias",
+    "items": {
+        "master": "Máster en Ingeniería Web",
+        "uniovi": "Universidad de Oviedo",
+        "research_spec": "Especialización en investigación",
+        "bachelor": "Grado en Ingeniería de Ciencia de Datos",
+        "research_apprentice": "Investigador en Formación",
+        "iuta": "Instituto Universitario de Tecnología Industrial de Asturias",
+        "iuta_desc": "Investigación sobre modelos de clasificación de eventos acústicos humanos para dispositivos embebidos de bajo consumo.",
+        "intern": "Becario",
+        "twave_desc": "Investigación en Procesamiento Digital de Señales y desarrollo de un sistema de auditoría de eventos en Go para la detección de anomalías, destinado a la integración en soluciones de IoT Industrial (IIoT) y Edge Computing desarrolladas por la empresa.",
+        "arcelor_2023_desc": "Apoyo a la Dirección de Digitalización de ArcelorMittal Global R&D en el análisis y adaptación de una plataforma genérica para algoritmos heurísticos y computación evolutiva a un caso de uso industrial.",
+        "arcelor_2022_desc": "Programa piloto de prácticas para estudiantes de primer año del grado de Ciencia de Datos e Ingeniería."
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "send_message": "Envíame un mensaje",
+    "form": {
+        "name": "Nombre:",
+        "email": "Correo:",
+        "email_help": "Nunca compartiré tu correo con nadie más.",
+        "subject": "Asunto:",
+        "message": "Mensaje:",
+        "submit": "Enviar Mensaje",
+        "sending": "Enviando...",
+        "success": "¡Gracias! Tu mensaje ha sido enviado con éxito. Te responderé pronto."
+    }
+  },
+  "search": {
+    "title": "Resultados de Búsqueda",
+    "searching": "Buscando...",
+    "no_results": "No se encontraron resultados para",
+    "results_for": "Resultados para",
+    "error": "Error al realizar la búsqueda."
+  },
+  "404": {
+    "title": "404",
+    "message": "¡Vaya! La página que buscas no existe.",
+    "submessage": "Puede que se haya movido o eliminado.",
+    "home_button": "Volver al Inicio"
+  }
+}

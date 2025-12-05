@@ -14,17 +14,26 @@
     <link rel="icon" type="image/x-icon" href="favicon.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <title>Contact - Daniel Castaño Rodríguez</title>
   </head>
 
   <body>
     <script src="js/header.js"></script>
 
-    <h1>Contact Me</h1>
+    <nav aria-label="Breadcrumb">
+      <ul>
+        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+        <li data-i18n="nav.contact">Contact</li>
+      </ul>
+    </nav>
+
+    <main id="main-content">
+    <h1 data-i18n="contact.title">Contact Me</h1>
     <table>
       <tbody>
         <tr>
-          <th scope="row">Email</th>
+          <th scope="row" data-i18n="contact.form.email">Email</th>
           <td><a href="mailto:daniel.cr.0001@outlook.com">daniel.cr.0001@outlook.com</a></td>
         </tr>
         <tr>
@@ -46,6 +55,34 @@
       </tbody>
     </table>
 
+    <section id="contact-form-section">
+      <h2 data-i18n="contact.send_message">Send me a message</h2>
+      <div id="form-feedback" class="form-message" role="alert"></div>
+      <form class="contact-form" action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="name" data-i18n="contact.form.name">Name:</label>
+          <input type="text" id="name" name="name" required aria-describedby="name-help">
+        </div>
+        <div class="form-group">
+          <label for="email" data-i18n="contact.form.email">Email:</label>
+          <input type="email" id="email" name="email" required aria-describedby="email-help">
+          <small id="email-help" class="form-help" data-i18n="contact.form.email_help">I'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="subject" data-i18n="contact.form.subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message" data-i18n="contact.form.message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-submit" data-i18n="contact.form.submit">Send Message</button>
+      </form>
+    </section>
+
+    </main>
+
+    <script src="js/contact.js"></script>
     <script src="js/footer.js"></script>
   </body>
 </html>
