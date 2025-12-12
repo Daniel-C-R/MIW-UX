@@ -28,20 +28,3 @@ scrollToTopBtn.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
-
-// WebGazer Integration
-const webgazerScript = document.createElement('script');
-webgazerScript.src = "https://webgazer.cs.brown.edu/webgazer.js";
-webgazerScript.async = true;
-webgazerScript.onload = () => {
-    // Initialize WebGazer
-    webgazer.setGazeListener((data, elapsedTime) => {
-        if (data == null) {
-            return;
-        }
-    }).begin();
-
-    // Show prediction points to visualize the tracker
-    webgazer.showPredictionPoints(true);
-};
-document.head.appendChild(webgazerScript);
