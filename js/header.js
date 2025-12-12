@@ -8,7 +8,7 @@ headerTemplate.innerHTML = `
     <ul>
       <li><a href="index.html" data-i18n="nav.home">Home</a></li>
       <li><a href="about.html" data-i18n="nav.about">About</a></li>
-      <li><a href="experience.html" data-i18n="nav.experience">Experience</a></li>
+      <li><a href="cv.html" data-i18n="nav.cv">CV</a></li>
       <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
     </ul>
     <div class="header-controls">
@@ -19,8 +19,8 @@ headerTemplate.innerHTML = `
       </form>
       <div class="language-selector">
         <select id="language-select" aria-label="Select Language">
-          <option value="en">English</option>
-          <option value="es">Español</option>
+          <option value="en">🇬🇧 English</option>
+          <option value="es">🇪🇸 Español</option>
         </select>
       </div>
     </div>

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "experience": "Experience",
+    "cv": "CV",
     "contact": "Contact",
     "search_placeholder": "Search...",
     "search_button": "Search",
@@ -38,10 +38,10 @@
     "title": "About me",
     "description": "My name is Daniel Castaño Rodríguez and I have a degree in Data Science and Engineering from the University of Oviedo. I am currently pursuing a Master's in Web Development while working on a scholarship at IUTA."
   },
-  "experience": {
-    "title": "Experience",
+  "cv": {
+    "title": "Curriculum Vitae",
     "education": "Education",
-    "work": "Work Experience",
+    "work": "Work CV",
     "references": "References",
     "items": {
         "master": "Master's Degree in Web Engineering",

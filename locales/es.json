@@ -2,7 +2,7 @@
   "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
-    "experience": "Experiencia",
+    "cv": "CV",
     "contact": "Contacto",
     "search_placeholder": "Buscar...",
     "search_button": "Buscar",
@@ -38,8 +38,8 @@
     "title": "Sobre mí",
     "description": "Me llamo Daniel Castaño Rodríguez y soy graduado en Ingeniería de Ciencia de Datos por la Universidad de Oviedo. Actualmente estoy cursando un Máster en Desarrollo Web mientras trabajo con una beca en el IUTA."
   },
-  "experience": {
-    "title": "Experiencia",
+  "cv": {
+    "title": "Currículum Vitae",
     "education": "Educación",
     "work": "Experiencia Laboral",
     "references": "Referencias",

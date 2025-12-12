@@ -1,7 +1,7 @@
 {
     "nav.home": "index.html",
     "nav.about": "about.html",
-    "nav.experience": "experience.html",
+    "nav.cv": "cv.html",
     "nav.contact": "contact.html",
     "footer.sitemap": "sitemap.html"
 }

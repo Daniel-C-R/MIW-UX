@@ -189,8 +189,8 @@ nav[aria-label="Breadcrumb"] a {
 }
 
 
-/* Experience and References */
-.experience-item, .reference-item {
+/* CV and References */
+.cv-item, .reference-item {
     display: flex;
     align-items: flex-start;
     gap: 1.25rem;
@@ -199,11 +199,11 @@ nav[aria-label="Breadcrumb"] a {
     border-bottom: 1px solid #eee;
 }
 
-.experience-item:last-child, .reference-item:last-child {
+.cv-item:last-child, .reference-item:last-child {
     border-bottom: none;
 }
 
-.experience-logo, .reference-photo {
+.cv-logo, .reference-photo {
     width: 5rem;
     height: 5rem;
     object-fit: cover;
@@ -216,7 +216,7 @@ nav[aria-label="Breadcrumb"] a {
     border-radius: 50%; /* Circular photos for people */
 }
 
-.experience-content, .reference-content {
+.cv-content, .reference-content {
     flex: 1;
 }
 
@@ -239,13 +239,13 @@ nav[aria-label="Breadcrumb"] a {
 }
 
 @media (max-width: 37.5rem) {
-    .experience-item, .reference-item {
+    .cv-item, .reference-item {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
     
-    .experience-logo, .reference-photo {
+    .cv-logo, .reference-photo {
         margin-bottom: 0.6rem;
     }
 }

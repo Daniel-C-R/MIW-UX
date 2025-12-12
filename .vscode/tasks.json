@@ -7,9 +7,9 @@
 			"command": "echo \"/* Skip Link */\n.skip-link {\n    position: absolute;\n    top: -40px;\n    left: 0;\n    background: #000;\n    color: white;\n    padding: 8px;\n    z-index: 100;\n    transition: top 0.3s;\n}\n\n.skip-link:focus {\n    top: 0;\n}\n\" >> css/styles.css"
 		},
 		{
-			"label": "append_experience_styles",
+			"label": "append_cv_styles",
 			"type": "shell",
-			"command": "echo \"\n/* Experience and References */\n.experience-item, .reference-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 20px;\n    margin-bottom: 20px;\n    padding-bottom: 20px;\n    border-bottom: 1px solid #eee;\n}\n\n.experience-item:last-child, .reference-item:last-child {\n    border-bottom: none;\n}\n\n.experience-logo, .reference-photo {\n    width: 80px;\n    height: 80px;\n    object-fit: cover;\n    border-radius: 8px;\n    flex-shrink: 0;\n    background-color: #f0f0f0; /* Placeholder background */\n}\n\n.reference-photo {\n    border-radius: 50%; /* Circular photos for people */\n}\n\n.experience-content, .reference-content {\n    flex: 1;\n}\n\n@media (max-width: 600px) {\n    .experience-item, .reference-item {\n        flex-direction: column;\n        align-items: center;\n        text-align: center;\n    }\n    \n    .experience-logo, .reference-photo {\n        margin-bottom: 10px;\n    }\n}\n\" >> css/styles.css"
+			"command": "echo \"\n/* CV and References */\n.cv-item, .reference-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 20px;\n    margin-bottom: 20px;\n    padding-bottom: 20px;\n    border-bottom: 1px solid #eee;\n}\n\n.cv-item:last-child, .reference-item:last-child {\n    border-bottom: none;\n}\n\n.cv-logo, .reference-photo {\n    width: 80px;\n    height: 80px;\n    object-fit: cover;\n    border-radius: 8px;\n    flex-shrink: 0;\n    background-color: #f0f0f0; /* Placeholder background */\n}\n\n.reference-photo {\n    border-radius: 50%; /* Circular photos for people */\n}\n\n.cv-content, .reference-content {\n    flex: 1;\n}\n\n@media (max-width: 600px) {\n    .cv-item, .reference-item {\n        flex-direction: column;\n        align-items: center;\n        text-align: center;\n    }\n    \n    .cv-logo, .reference-photo {\n        margin-bottom: 10px;\n    }\n}\n\" >> css/styles.css"
 		},
 		{
 			"label": "append_search_styles",
