@@ -18,7 +18,8 @@ headerTemplate.innerHTML = `
         <button type="submit" data-i18n="nav.search_button">Search</button>
       </form>
       <div class="language-selector">
-        <select id="language-select" aria-label="Select Language">
+        <label for="language-select" class="visually-hidden" data-i18n="nav.language_label">Select Language</label>
+        <select id="language-select">
           <option value="en">🇬🇧 English</option>
           <option value="es">🇪🇸 Español</option>
         </select>
